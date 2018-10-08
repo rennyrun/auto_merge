@@ -4,7 +4,8 @@ updateBranch: true
 deleteBranchAfterMerge: true
 
 minApprovals:
-  COLLABORATOR: 1
+  COLLABORATOR: 0
+  CONTRIBUTOR: 0
 maxRequestedChanges:
   NONE: 0
 blockingLabels:
@@ -15,6 +16,4 @@ blockingLabels:
 rules:
 - minApprovals:
     OWNER: 0
-- requiredLabels:
-  - merge
 #elly check kedua kali yaya
