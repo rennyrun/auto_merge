@@ -9,8 +9,8 @@ blockingLabels:
 # Will merge whenever the above conditions are met, but also
 rules:
 - minApprovals:
-    COLLABORATOR: 1
+    COLLABORATOR: 0
 - requiredLabels:
     - qa-approve
     
-# test
+# test 
