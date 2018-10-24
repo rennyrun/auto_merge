@@ -7,11 +7,10 @@ reportStatus: true
 blockingLabels:
 - dont-merge
 
-# Will merge whenever the above conditions are met, but also
-rules:
-- minApprovals:
-    COLLABORATOR: 1
-- requiredLabels:
-    - qa-approve
+minApprovals:
+  COLLABORATOR: 1
+
+requiredLabels:
+- qa-approve
 
     #checking
