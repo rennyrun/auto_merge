@@ -2,6 +2,7 @@
 
 updateBranch: true
 deleteBranchAfterMerge: true
+reportStatus: true
 
 blockingLabels:
 - dont-merge
@@ -9,8 +10,6 @@ blockingLabels:
 # Will merge whenever the above conditions are met, but also
 rules:
 - minApprovals:
-    COLLABORATOR: 1
+    COLLABOLATOR: 1
 - requiredLabels:
     - qa-approve
-    
-# test 
