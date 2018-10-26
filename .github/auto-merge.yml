@@ -7,10 +7,7 @@ reportStatus: true
 blockingLabels:
 - dont-merge
 
-minApprovals:
-  MEMBER: 1
-
 requiredLabels:
 - qa-approve
 
-    #checking hahaha
+    #checking hahahaha
